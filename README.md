@@ -86,7 +86,7 @@ Mô tả các hành vi quản trị của cố vấn học tập / giáo viên c
 #### 4. Sơ đồ Class Diagram (Lớp dữ liệu ứng dụng Android)
 Định nghĩa mối quan hệ giữa các đối tượng dữ liệu trong ứng dụng di động Android: `User`, `ChatSession`, `ChatMessage`, các API client và repository.
 
-![Class Diagram](docs/images/class_diagram.png)
+![Class Diagram](classdiagrams.png)
 
 ---
 
