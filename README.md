@@ -43,7 +43,7 @@
 
 | Hộp thoại trống | Giao diện Chatbot trả lời | Thông tin người dùng | Đăng xuất |
 | :---: | :---: | :---: | :---: |
-| ![Empty Chat](docs/images/ui_chat_empty.png) | ![Chat Response](docs/images/ui_chat_response.png) | ![Information](docs/images/information_sidebar.png.png) | ![Logout](docs/images/ui_logout.png) |
+| ![Empty Chat](docs/images/ui_chat_empty.png) | ![Chat Response](docs/images/ui_chat_response.png) | ![Information](docs/images/information_sidebar.png) | ![Logout](docs/images/ui_logout.png) |
 
 ---
 
