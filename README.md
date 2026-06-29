@@ -40,9 +40,9 @@
 | :---: | :---: | :---: | :---: |
 | ![Welcome](docs/images/ui_welcome.png) | ![Login](docs/images/ui_login.png) | ![Register](docs/images/ui_register.png) | ![Google Login](docs/images/ui_google_sign_in.png) |
 
-| Hộp thoại trống | Giao diện Chatbot trả lời | Sidebar Lịch sử | Đăng xuất |
+| Hộp thoại trống | Giao diện Chatbot trả lời | Thông tin người dùng | Đăng xuất |
 | :---: | :---: | :---: | :---: |
-| ![Empty Chat](docs/images/ui_chat_empty.png) | ![Chat Response](docs/images/ui_chat_response.png) | ![History](docs/images/ui_history_sidebar.png) | ![Logout](docs/images/ui_logout.png) |
+| ![Empty Chat](docs/images/ui_chat_empty.png) | ![Chat Response](docs/images/ui_chat_response.png) | ![Information](docs/images/information_sidebar.png.png) | ![Logout](docs/images/ui_logout.png) |
 
 ---
 
