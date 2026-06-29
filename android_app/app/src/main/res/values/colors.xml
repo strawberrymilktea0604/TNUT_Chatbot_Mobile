@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_blue">#2196F3</color>
+    <color name="primary_blue_dark">#1565C0</color>
+    <color name="primary_blue_light">#BBDEFB</color>
+    <color name="primary_color">@color/primary_blue</color>
+    
+    <!-- Text Colors -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="text_primary">@color/primary_text</color>
+    <color name="text_secondary">@color/secondary_text</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_color">@color/background_light</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_orange">#FF5722</color>
+    <color name="accent_green">#4CAF50</color>
+    
+    <!-- Additional Colors -->
+    <color name="divider_color">#E0E0E0</color>
+    <color name="error_color">#F44336</color>
+    <color name="success_color">#4CAF50</color>
+    
+    <!-- Material Design 3 Colors -->
+    <color name="md_theme_light_primary">#2196F3</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#E3F2FD</color>
+    <color name="md_theme_light_onPrimaryContainer">#0D47A1</color>
+    <color name="md_theme_light_surface">#FEFBFF</color>
+    <color name="md_theme_light_onSurface">#1C1B1F</color>
+    <color name="md_theme_light_surfaceVariant">#E7E0EC</color>
+    <color name="md_theme_light_onSurfaceVariant">#49454F</color>
+    <color name="md_theme_light_outline">#79747E</color>
+    
+    <!-- Chat Colors -->
+    <color name="user_message_bg">#E3F2FD</color>
+    <color name="bot_message_bg">#F5F5F5</color>
+    <color name="chat_input_bg">#FFFFFF</color>
+</resources>

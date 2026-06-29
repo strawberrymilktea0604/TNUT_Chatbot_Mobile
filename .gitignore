@@ -1,0 +1,5 @@
+.env
+backend_auth/.env
+backend_chatbot/.env 
+android_app/app/google-services.json
+admin-frontend/node_modules/

@@ -1,0 +1,939 @@
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\java\com\example\tnutchatboxapp\SplashActivity.java:8: Warning: The application should not provide its own launch screen [CustomSplashScreen]
+public class SplashActivity extends AppCompatActivity {
+             ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "CustomSplashScreen":
+   Starting in Android 12 (API 31+), the application's Launch Screen is
+   provided by the system and the application should not create its own,
+   otherwise the user will see two splashscreens. Please check the
+   SplashScreen class to check how the Splash Screen can be controlled and
+   customized.
+
+   https://developer.android.com/guide/topics/ui/splash-screen
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:77: Warning: BOM should be added with a call to platform() [BomWithoutPlatform]
+    implementation("com.google.firebase:firebase-bom:32.7.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "BomWithoutPlatform":
+   When including a BOM, the dependency's coordinates must be wrapped in a
+   call to platform() for Gradle to interpret it correctly.
+
+   https://developer.android.com/r/tools/gradle-bom-docs
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:45: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.12.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:46: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+    implementation("androidx.appcompat:appcompat:1.6.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:47: Warning: A newer version of com.google.android.material:material than 1.11.0 is available: 1.13.0 [GradleDependency]
+    implementation("com.google.android.material:material:1.11.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:48: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:51: Warning: A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.6 is available: 2.9.5 [GradleDependency]
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:52: Warning: A newer version of androidx.navigation:navigation-ui-ktx than 2.7.6 is available: 2.9.5 [GradleDependency]
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:58: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.9.4 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:59: Warning: A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.9.4 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:66: Warning: A newer version of androidx.activity:activity-ktx than 1.8.2 is available: 1.11.0 [GradleDependency]
+    implementation("androidx.activity:activity-ktx:1.8.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:67: Warning: A newer version of androidx.fragment:fragment-ktx than 1.6.2 is available: 1.8.9 [GradleDependency]
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:75: Warning: A newer version of com.google.android.gms:play-services-auth than 20.7.0 is available: 21.4.0 [GradleDependency]
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:76: Warning: A newer version of com.google.firebase:firebase-auth than 22.3.1 is available: 24.0.1 [GradleDependency]
+    implementation("com.google.firebase:firebase-auth:22.3.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:77: Warning: A newer version of com.google.firebase:firebase-bom than 32.7.2 is available: 34.3.0 [GradleDependency]
+    implementation("com.google.firebase:firebase-bom:32.7.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:89: Warning: A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0 [GradleDependency]
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:108: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:109: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\build.gradle.kts:39: Warning: If you plan to use data binding in a Kotlin project, you should apply the kotlin-kapt plugin. [DataBindingWithoutKapt]
+        dataBinding = true
+        ~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DataBindingWithoutKapt":
+   Apps that use Kotlin and data binding should also apply the kotlin-kapt
+   plugin.
+
+   https://kotlinlang.org/docs/reference/kapt.html
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\item_chat_history.xml:72: Warning: Use app:drawableStartCompat instead of android:drawableStart [UseCompatTextViewDrawableXml from androidx.appcompat]
+                android:drawableStart="@drawable/ic_history"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseCompatTextViewDrawableXml":
+   TextView uses android: compound drawable attributes instead of app: ones
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\java\com\example\tnutchatboxapp\adapter\ChatAdapter.kt:162: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\java\com\example\tnutchatboxapp\ChatHistoryActivity.kt:67: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+                    historyAdapter.notifyDataSetChanged()
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NotifyDataSetChanged":
+   The RecyclerView adapter's onNotifyDataSetChanged method does not specify
+   what about the data set has changed, forcing any observers to assume that
+   all existing items and structure may no longer be valid. `LayoutManager`s
+   will be forced to fully rebind and relayout all visible views.
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\java\com\example\tnutchatboxapp\network\ApiRepository.kt:170: Warning: Do not place Android context classes in static fields (static reference to ApiRepository which has field context pointing to Context); this is a memory leak [StaticFieldLeak]
+        @Volatile
+        ^
+
+   Explanation for issues of type "StaticFieldLeak":
+   A static field will leak contexts.
+
+   Non-static inner classes have an implicit reference to their outer class.
+   If that outer class is for example a Fragment or Activity, then this
+   reference means that the long-running handler/loader/task will hold a
+   reference to the activity which prevents it from getting garbage
+   collected.
+
+   Similarly, direct field references to activities and fragments from these
+   longer running instances can cause leaks.
+
+   ViewModel classes should never point to Views or non-application Contexts.
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email.xml:6: Warning: Possible overdraw: Root element paints background @color/background_color with a theme that also paints a background (inferred theme is @style/Theme.TNUTChatBoxApp) [Overdraw]
+    android:background="@color/background_color">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:6: Warning: Possible overdraw: Root element paints background @color/background_color with a theme that also paints a background (inferred theme is @style/Theme.TNUTChatBoxApp) [Overdraw]
+    android:background="@color/background_color">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_password.xml:6: Warning: Possible overdraw: Root element paints background @color/background_color with a theme that also paints a background (inferred theme is @style/Theme.TNUTChatBoxApp) [Overdraw]
+    android:background="@color/background_color">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:8: Warning: Possible overdraw: Root element paints background @color/background_color with a theme that also paints a background (inferred theme is @style/Theme.TNUTChatBoxApp) [Overdraw]
+    android:background="@color/background_color"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_forgot_password.xml:8: Warning: Possible overdraw: Root element paints background @color/background_color with a theme that also paints a background (inferred theme is @style/Theme_TNUTChatBoxApp_NoActionBar) [Overdraw]
+    android:background="@color/background_color"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:8: Warning: Possible overdraw: Root element paints background @color/background_color with a theme that also paints a background (inferred theme is @style/Theme_TNUTChatBoxApp_NoActionBar) [Overdraw]
+    android:background="@color/background_color"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:8: Warning: Possible overdraw: Root element paints background @color/background_color with a theme that also paints a background (inferred theme is @style/Theme_TNUTChatBoxApp_NoActionBar) [Overdraw]
+    android:background="@color/background_color"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:8: Warning: Possible overdraw: Root element paints background @color/background_color with a theme that also paints a background (inferred theme is @style/Theme_TNUTChatBoxApp_NoActionBar) [Overdraw]
+    android:background="@color/background_color"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_reset_password.xml:8: Warning: Possible overdraw: Root element paints background @color/background_color with a theme that also paints a background (inferred theme is @style/Theme_TNUTChatBoxApp_NoActionBar) [Overdraw]
+    android:background="@color/background_color"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_splash.xml:6: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.TNUTChatBoxApp) [Overdraw]
+    android:background="@android:color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:2: Warning: The resource R.layout.activity_email_verification appears to be unused [UnusedResources]
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\drawable\button_send_selector.xml:2: Warning: The resource R.drawable.button_send_selector appears to be unused [UnusedResources]
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:6: Warning: The resource R.color.primary_blue_light appears to be unused [UnusedResources]
+    <color name="primary_blue_light">#BBDEFB</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:18: Warning: The resource R.color.white appears to be unused [UnusedResources]
+    <color name="white">#FFFFFF</color>
+           ~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:22: Warning: The resource R.color.accent_green appears to be unused [UnusedResources]
+    <color name="accent_green">#4CAF50</color>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:26: Warning: The resource R.color.error_color appears to be unused [UnusedResources]
+    <color name="error_color">#F44336</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:27: Warning: The resource R.color.success_color appears to be unused [UnusedResources]
+    <color name="success_color">#4CAF50</color>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:30: Warning: The resource R.color.md_theme_light_primary appears to be unused [UnusedResources]
+    <color name="md_theme_light_primary">#2196F3</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:31: Warning: The resource R.color.md_theme_light_onPrimary appears to be unused [UnusedResources]
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:32: Warning: The resource R.color.md_theme_light_primaryContainer appears to be unused [UnusedResources]
+    <color name="md_theme_light_primaryContainer">#E3F2FD</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:33: Warning: The resource R.color.md_theme_light_onPrimaryContainer appears to be unused [UnusedResources]
+    <color name="md_theme_light_onPrimaryContainer">#0D47A1</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:34: Warning: The resource R.color.md_theme_light_surface appears to be unused [UnusedResources]
+    <color name="md_theme_light_surface">#FEFBFF</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:35: Warning: The resource R.color.md_theme_light_onSurface appears to be unused [UnusedResources]
+    <color name="md_theme_light_onSurface">#1C1B1F</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:36: Warning: The resource R.color.md_theme_light_surfaceVariant appears to be unused [UnusedResources]
+    <color name="md_theme_light_surfaceVariant">#E7E0EC</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:37: Warning: The resource R.color.md_theme_light_onSurfaceVariant appears to be unused [UnusedResources]
+    <color name="md_theme_light_onSurfaceVariant">#49454F</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\colors.xml:38: Warning: The resource R.color.md_theme_light_outline appears to be unused [UnusedResources]
+    <color name="md_theme_light_outline">#79747E</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\dimens.xml:8: Warning: The resource R.dimen.fab_margin appears to be unused [UnusedResources]
+    <dimen name="fab_margin">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\dimens.xml:16: Warning: The resource R.dimen.chat_input_margin appears to be unused [UnusedResources]
+    <dimen name="chat_input_margin">12dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\dimens.xml:17: Warning: The resource R.dimen.chat_input_padding appears to be unused [UnusedResources]
+    <dimen name="chat_input_padding">8dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\dimens.xml:18: Warning: The resource R.dimen.chat_input_radius appears to be unused [UnusedResources]
+    <dimen name="chat_input_radius">28dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\drawable\edit_text_background.xml:2: Warning: The resource R.drawable.edit_text_background appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\drawable\ic_bot_avatar.xml:1: Warning: The resource R.drawable.ic_bot_avatar appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\drawable\ic_email_verification.xml:2: Warning: The resource R.drawable.ic_email_verification appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\drawable\ic_user_avatar.xml:1: Warning: The resource R.drawable.ic_user_avatar appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\drawable\nav_header_bg.xml:2: Warning: The resource R.drawable.nav_header_bg appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\anim\slide_out_right.xml:2: Warning: The resource R.anim.slide_out_right appears to be unused [UnusedResources]
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:8: Warning: The resource R.string.loading_message appears to be unused [UnusedResources]
+    <string name="loading_message">Đang phản hồi...</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:25: Warning: The resource R.string.login_title appears to be unused [UnusedResources]
+    <string name="login_title">Đăng nhập</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:26: Warning: The resource R.string.register_title appears to be unused [UnusedResources]
+    <string name="register_title">Đăng ký</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:27: Warning: The resource R.string.email_verification_title appears to be unused [UnusedResources]
+    <string name="email_verification_title">Xác nhận email</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:28: Warning: The resource R.string.forgot_password_title appears to be unused [UnusedResources]
+    <string name="forgot_password_title">Quên mật khẩu</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:29: Warning: The resource R.string.reset_password_title appears to be unused [UnusedResources]
+    <string name="reset_password_title">Đặt lại mật khẩu</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:32: Warning: The resource R.string.username_hint appears to be unused [UnusedResources]
+    <string name="username_hint">Tên đăng nhập</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:33: Warning: The resource R.string.email_hint appears to be unused [UnusedResources]
+    <string name="email_hint">Email (Gmail)</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:34: Warning: The resource R.string.password_hint appears to be unused [UnusedResources]
+    <string name="password_hint">Mật khẩu</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:35: Warning: The resource R.string.confirm_password_hint appears to be unused [UnusedResources]
+    <string name="confirm_password_hint">Xác nhận mật khẩu</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:36: Warning: The resource R.string.new_password_hint appears to be unused [UnusedResources]
+    <string name="new_password_hint">Mật khẩu mới</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:37: Warning: The resource R.string.verification_code_hint appears to be unused [UnusedResources]
+    <string name="verification_code_hint">Mã xác nhận</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:40: Warning: The resource R.string.login_button appears to be unused [UnusedResources]
+    <string name="login_button">Đăng nhập</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:41: Warning: The resource R.string.register_button appears to be unused [UnusedResources]
+    <string name="register_button">Đăng ký</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:42: Warning: The resource R.string.verify_button appears to be unused [UnusedResources]
+    <string name="verify_button">Xác nhận</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:43: Warning: The resource R.string.send_code_button appears to be unused [UnusedResources]
+    <string name="send_code_button">Gửi mã xác nhận</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:44: Warning: The resource R.string.resend_code_button appears to be unused [UnusedResources]
+    <string name="resend_code_button">Gửi lại mã</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:45: Warning: The resource R.string.reset_password_button appears to be unused [UnusedResources]
+    <string name="reset_password_button">Đặt lại mật khẩu</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:46: Warning: The resource R.string.google_signin_button appears to be unused [UnusedResources]
+    <string name="google_signin_button">Đăng nhập với Google</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:47: Warning: The resource R.string.back_button appears to be unused [UnusedResources]
+    <string name="back_button">Quay lại</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:50: Warning: The resource R.string.login_success appears to be unused [UnusedResources]
+    <string name="login_success">Đăng nhập thành công!</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:51: Warning: The resource R.string.register_success appears to be unused [UnusedResources]
+    <string name="register_success">Đăng ký thành công!</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:52: Warning: The resource R.string.verification_sent appears to be unused [UnusedResources]
+    <string name="verification_sent">Mã xác nhận đã được gửi</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:53: Warning: The resource R.string.password_reset_success appears to be unused [UnusedResources]
+    <string name="password_reset_success">Đặt lại mật khẩu thành công!</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:56: Warning: The resource R.string.network_error appears to be unused [UnusedResources]
+    <string name="network_error">Lỗi kết nối mạng</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:57: Warning: The resource R.string.invalid_credentials appears to be unused [UnusedResources]
+    <string name="invalid_credentials">Thông tin đăng nhập không đúng</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:58: Warning: The resource R.string.user_exists appears to be unused [UnusedResources]
+    <string name="user_exists">Tài khoản đã tồn tại</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:59: Warning: The resource R.string.invalid_verification_code appears to be unused [UnusedResources]
+    <string name="invalid_verification_code">Mã xác nhận không đúng</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:60: Warning: The resource R.string.session_expired appears to be unused [UnusedResources]
+    <string name="session_expired">Phiên đăng nhập đã hết hạn</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:73: Warning: The resource R.string.nav_header_desc appears to be unused [UnusedResources]
+    <string name="nav_header_desc">Avatar người dùng</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:76: Warning: The resource R.string.user_profile appears to be unused [UnusedResources]
+    <string name="user_profile">Thông tin tài khoản</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:77: Warning: The resource R.string.username_label appears to be unused [UnusedResources]
+    <string name="username_label">Tên đăng nhập:</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:78: Warning: The resource R.string.email_label appears to be unused [UnusedResources]
+    <string name="email_label">Email:</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:82: Warning: The resource R.string.empty_chat_history appears to be unused [UnusedResources]
+    <string name="empty_chat_history">Chưa có lịch sử chat</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:83: Warning: The resource R.string.delete_chat appears to be unused [UnusedResources]
+    <string name="delete_chat">Xóa đoạn chat</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:84: Warning: The resource R.string.confirm_delete_chat appears to be unused [UnusedResources]
+    <string name="confirm_delete_chat">Bạn có chắc muốn xóa đoạn chat này?</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:87: Warning: The resource R.string.message_copied appears to be unused [UnusedResources]
+    <string name="message_copied">Đã sao chép tin nhắn</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:88: Warning: The resource R.string.chat_history_title appears to be unused [UnusedResources]
+    <string name="chat_history_title">Lịch sử đoạn chat</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:89: Warning: The resource R.string.no_chat_history appears to be unused [UnusedResources]
+    <string name="no_chat_history">Chưa có lịch sử đoạn chat nào.\nHãy bắt đầu cuộc trò chuyện đầu tiên!</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:92: Warning: The resource R.string.ok appears to be unused [UnusedResources]
+    <string name="ok">OK</string>
+            ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:93: Warning: The resource R.string.cancel appears to be unused [UnusedResources]
+    <string name="cancel">Hủy</string>
+            ~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:94: Warning: The resource R.string.delete appears to be unused [UnusedResources]
+    <string name="delete">Xóa</string>
+            ~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:95: Warning: The resource R.string.save appears to be unused [UnusedResources]
+    <string name="save">Lưu</string>
+            ~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:96: Warning: The resource R.string.edit appears to be unused [UnusedResources]
+    <string name="edit">Chỉnh sửa</string>
+            ~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:99: Warning: The resource R.string.no_account appears to be unused [UnusedResources]
+    <string name="no_account">Chưa có tài khoản?</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:100: Warning: The resource R.string.register_now appears to be unused [UnusedResources]
+    <string name="register_now">Đăng ký ngay</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:101: Warning: The resource R.string.already_have_account appears to be unused [UnusedResources]
+    <string name="already_have_account">Đã có tài khoản?</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:102: Warning: The resource R.string.login_now appears to be unused [UnusedResources]
+    <string name="login_now">Đăng nhập ngay</string>
+            ~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:103: Warning: The resource R.string.forgot_password appears to be unused [UnusedResources]
+    <string name="forgot_password">Quên mật khẩu?</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:106: Warning: The resource R.string.change_password_title appears to be unused [UnusedResources]
+    <string name="change_password_title">Đổi mật khẩu</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:107: Warning: The resource R.string.change_email_title appears to be unused [UnusedResources]
+    <string name="change_email_title">Đổi email</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:108: Warning: The resource R.string.current_password_hint appears to be unused [UnusedResources]
+    <string name="current_password_hint">Mật khẩu hiện tại</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:109: Warning: The resource R.string.current_email_hint appears to be unused [UnusedResources]
+    <string name="current_email_hint">Email hiện tại</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:110: Warning: The resource R.string.new_email_hint appears to be unused [UnusedResources]
+    <string name="new_email_hint">Email mới</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:111: Warning: The resource R.string.confirm_button appears to be unused [UnusedResources]
+    <string name="confirm_button">Xác nhận</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:112: Warning: The resource R.string.send_verification_code appears to be unused [UnusedResources]
+    <string name="send_verification_code">Gửi mã xác nhận</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:115: Warning: The resource R.string.password_must_be_different appears to be unused [UnusedResources]
+    <string name="password_must_be_different">Mật khẩu mới phải khác mật khẩu hiện tại</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:116: Warning: The resource R.string.email_must_be_different appears to be unused [UnusedResources]
+    <string name="email_must_be_different">Email mới phải khác email hiện tại</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:117: Warning: The resource R.string.enter_all_digits appears to be unused [UnusedResources]
+    <string name="enter_all_digits">Vui lòng nhập đầy đủ 6 số</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:118: Warning: The resource R.string.resend_code_with_timer appears to be unused [UnusedResources]
+    <string name="resend_code_with_timer">Gửi lại (%d)</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:119: Warning: The resource R.string.resend_code appears to be unused [UnusedResources]
+    <string name="resend_code">Gửi lại</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:120: Warning: The resource R.string.code_not_received appears to be unused [UnusedResources]
+    <string name="code_not_received">Bạn chưa nhận được mã?</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\themes.xml:15: Warning: The resource R.style.Widget_App_TextInputLayout appears to be unused [UnusedResources]
+    <style name="Widget.App.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox.Dense">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\drawable\typing_dot.xml:2: Warning: The resource R.drawable.typing_dot appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\anim\typing_dot_animation.xml:2: Warning: The resource R.anim.typing_dot_animation appears to be unused [UnusedResources]
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+^
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\typing_indicator.xml:11: Warning: This FrameLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+    <FrameLayout
+     ~~~~~~~~~~~
+
+   Explanation for issues of type "UselessParent":
+   A layout with children that has no siblings, is not a scrollview or a root
+   layout, and does not have a background, can be removed and have its
+   children moved directly into the parent for a flatter and more efficient
+   layout hierarchy.
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:5: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="message_hint">Nhập câu hỏi của bạn...</string>
+                                ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\values\strings.xml:8: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="loading_message">Đang phản hồi...</string>
+                                   ~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "TypographyEllipsis":
+   You can replace the string "..." with a dedicated ellipsis character,
+   ellipsis character (u2026, &#8230;). This can help make the text more
+   readable.
+
+   https://en.wikipedia.org/wiki/Ellipsis
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png: Warning: The image ic_launcher.png varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpiic_launcher.png: 560x560 dp (840x840 px), mipmap-mdpiic_launcher.png: 840x840 dp (840x840 px), mipmap-xhdpiic_launcher.png: 420x420 dp (840x840 px), mipmap-xxhdpiic_launcher.png: 280x280 dp (840x840 px), mipmap-xxxhdpiic_launcher.png: 210x210 dp (840x840 px) [IconDipSize]
+
+   Explanation for issues of type "IconDipSize":
+   Checks the all icons which are provided in multiple densities, all compute
+   to roughly the same density-independent pixel (dip) size. This catches
+   errors where images are either placed in the wrong folder, or icons are
+   changed to new sizes but some folders are forgotten.
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\drawable\logo.png: Warning: Found bitmap drawable res/drawable/logo.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png: Warning: The following unrelated icon files have identical contents: logo.png, ic_launcher.png, ic_launcher.png, ic_launcher.png, ic_launcher.png, ic_launcher.png [IconDuplicates]
+
+   Explanation for issues of type "IconDuplicates":
+   If an icon is repeated under different names, you can consolidate and just
+   use one of the icons and delete the others to make your application
+   smaller. However, duplicated icons usually are not intentional and can
+   sometimes point to icons that were accidentally overwritten or accidentally
+   not updated.
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:92: Warning: Missing autofillHints attribute [Autofill]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:105: Warning: Missing autofillHints attribute [Autofill]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:118: Warning: Missing autofillHints attribute [Autofill]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:131: Warning: Missing autofillHints attribute [Autofill]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:144: Warning: Missing autofillHints attribute [Autofill]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:157: Warning: Missing autofillHints attribute [Autofill]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:88: Warning: Missing autofillHints attribute [Autofill]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:101: Warning: Missing autofillHints attribute [Autofill]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:114: Warning: Missing autofillHints attribute [Autofill]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:127: Warning: Missing autofillHints attribute [Autofill]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:140: Warning: Missing autofillHints attribute [Autofill]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:153: Warning: Missing autofillHints attribute [Autofill]
+            <EditText
+             ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email.xml:14: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:14: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_password.xml:14: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:17: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageButton
+         ~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:27: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_forgot_password.xml:17: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageButton
+         ~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_forgot_password.xml:27: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:17: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageButton
+         ~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:27: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:17: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:17: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageButton
+         ~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:27: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_reset_password.xml:17: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageButton
+         ~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_reset_password.xml:27: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_splash.xml:9: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:92: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:105: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:118: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:131: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:144: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:157: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+                    <EditText
+                     ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:88: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:101: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:114: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:127: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:140: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+            <EditText
+             ~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:153: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+            <EditText
+             ~~~~~~~~
+
+   Explanation for issues of type "LabelFor":
+   Editable text fields should provide an android:hint or, provided your
+   minSdkVersion is at least 17, they may be referenced by a view with a
+   android:labelFor attribute.
+
+   When using android:labelFor, be sure to provide an android:text or an
+   android:contentDescription.
+
+   If your view is labeled but by a label in a different layout which includes
+   this one, just suppress this warning from lint.
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\java\com\example\tnutchatboxapp\account\ChangeEmailVerificationActivity.kt:227: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                binding.resendCodeTextView.text = "Gửi lại ($resendCooldown)"
+                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\java\com\example\tnutchatboxapp\adapter\ChatHistoryAdapter.kt:35: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.messageCountText.text = "${session.messageCount} tin nhắn"
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\java\com\example\tnutchatboxapp\adapter\ChatHistoryAdapter.kt:35: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        holder.messageCountText.text = "${session.messageCount} tin nhắn"
+                                                               ~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email.xml:29: Warning: Hardcoded string "Đổi email", should use @string resource [HardcodedText]
+            android:text="Đổi email"
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email.xml:62: Warning: Hardcoded string "Email hiện tại", should use @string resource [HardcodedText]
+                    android:hint="Email hiện tại"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email.xml:82: Warning: Hardcoded string "Email mới", should use @string resource [HardcodedText]
+                    android:hint="Email mới"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email.xml:108: Warning: Hardcoded string "Hủy", should use @string resource [HardcodedText]
+                        android:text="Hủy"
+                        ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email.xml:121: Warning: Hardcoded string "Gửi mã xác nhận", should use @string resource [HardcodedText]
+                        android:text="Gửi mã xác nhận"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:29: Warning: Hardcoded string "Xác nhận email", should use @string resource [HardcodedText]
+            android:text="Xác nhận email"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:43: Warning: Hardcoded string "Vui lòng nhập mã xác thực được gửi đến email", should use @string resource [HardcodedText]
+            android:text="Vui lòng nhập mã xác thực được gửi đến email"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:56: Warning: Hardcoded string "lm*@gmail.com", should use @string resource [HardcodedText]
+            android:text="lm*********************@gmail.com"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:183: Warning: Hardcoded string "Bạn chưa nhận được mã?", should use @string resource [HardcodedText]
+                        android:text="Bạn chưa nhận được mã?"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:192: Warning: Hardcoded string "Gửi lại (58)", should use @string resource [HardcodedText]
+                        android:text="Gửi lại (58)"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:212: Warning: Hardcoded string "Hủy", should use @string resource [HardcodedText]
+                        android:text="Hủy"
+                        ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_email_verification.xml:225: Warning: Hardcoded string "Xác nhận", should use @string resource [HardcodedText]
+                        android:text="Xác nhận"
+                        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_password.xml:29: Warning: Hardcoded string "Đổi mật khẩu", should use @string resource [HardcodedText]
+            android:text="Đổi mật khẩu"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_password.xml:62: Warning: Hardcoded string "Mật khẩu hiện tại", should use @string resource [HardcodedText]
+                    android:hint="Mật khẩu hiện tại"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_password.xml:82: Warning: Hardcoded string "Mật khẩu mới", should use @string resource [HardcodedText]
+                    android:hint="Mật khẩu mới"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_password.xml:102: Warning: Hardcoded string "Xác nhận mật khẩu mới", should use @string resource [HardcodedText]
+                    android:hint="Xác nhận mật khẩu mới"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_password.xml:129: Warning: Hardcoded string "Hủy", should use @string resource [HardcodedText]
+                        android:text="Hủy"
+                        ~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_change_password.xml:142: Warning: Hardcoded string "Xác nhận", should use @string resource [HardcodedText]
+                        android:text="Xác nhận"
+                        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_chat_history.xml:46: Warning: Hardcoded string "Chưa có lịch sử đoạn chat nào.nHãy bắt đầu cuộc trò chuyện đầu tiên!", should use @string resource [HardcodedText]
+            android:text="Chưa có lịch sử đoạn chat nào.\nHãy bắt đầu cuộc trò chuyện đầu tiên!"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:42: Warning: Hardcoded string "Xác nhận email", should use @string resource [HardcodedText]
+            android:text="Xác nhận email"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:55: Warning: Hardcoded string "Vui lòng nhập mã xác nhận 6 chữ số", should use @string resource [HardcodedText]
+            android:text="Vui lòng nhập mã xác nhận 6 chữ số"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:68: Warning: Hardcoded string "Mã xác nhận đã được gửi đến email@gmail.com", should use @string resource [HardcodedText]
+            android:text="Mã xác nhận đã được gửi đến email@gmail.com"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:173: Warning: Hardcoded string "Xác nhận", should use @string resource [HardcodedText]
+            android:text="Xác nhận"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_email_verification.xml:190: Warning: Hardcoded string "Gửi lại mã", should use @string resource [HardcodedText]
+            android:text="Gửi lại mã"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_error.xml:15: Warning: Hardcoded string "Lỗi ứng dụng", should use @string resource [HardcodedText]
+            android:text="Lỗi ứng dụng"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_error.xml:32: Warning: Hardcoded string "Đóng ứng dụng", should use @string resource [HardcodedText]
+            android:text="Đóng ứng dụng" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_forgot_password.xml:42: Warning: Hardcoded string "Quên mật khẩu?", should use @string resource [HardcodedText]
+            android:text="Quên mật khẩu?"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_forgot_password.xml:55: Warning: Hardcoded string "Nhập email của bạn để nhận mật khẩu mới qua email", should use @string resource [HardcodedText]
+            android:text="Nhập email của bạn để nhận mật khẩu mới qua email"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_forgot_password.xml:70: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+            android:hint="Email"
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_forgot_password.xml:91: Warning: Hardcoded string "Đặt lại mật khẩu", should use @string resource [HardcodedText]
+            android:text="Đặt lại mật khẩu"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:42: Warning: Hardcoded string "Hoàn tất đăng ký", should use @string resource [HardcodedText]
+            android:text="Hoàn tất đăng ký"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:55: Warning: Hardcoded string "Vui lòng cung cấp thông tin để hoàn tất đăng ký", should use @string resource [HardcodedText]
+            android:text="Vui lòng cung cấp thông tin để hoàn tất đăng ký"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:68: Warning: Hardcoded string "email@gmail.com", should use @string resource [HardcodedText]
+            android:text="email@gmail.com"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:86: Warning: Hardcoded string "Tên đăng nhập", should use @string resource [HardcodedText]
+            android:hint="Tên đăng nhập"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:107: Warning: Hardcoded string "Mật khẩu", should use @string resource [HardcodedText]
+            android:hint="Mật khẩu"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:129: Warning: Hardcoded string "Xác nhận mật khẩu", should use @string resource [HardcodedText]
+            android:hint="Xác nhận mật khẩu"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_google_register.xml:151: Warning: Hardcoded string "Hoàn tất đăng ký", should use @string resource [HardcodedText]
+            android:text="Hoàn tất đăng ký"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:32: Warning: Hardcoded string "Đăng nhập", should use @string resource [HardcodedText]
+            android:text="Đăng nhập"
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:45: Warning: Hardcoded string "Đăng nhập để tiếp tục sử dụng ứng dụng", should use @string resource [HardcodedText]
+            android:text="Đăng nhập để tiếp tục sử dụng ứng dụng"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:59: Warning: Hardcoded string "Tên đăng nhập", should use @string resource [HardcodedText]
+            android:hint="Tên đăng nhập"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:80: Warning: Hardcoded string "Mật khẩu", should use @string resource [HardcodedText]
+            android:hint="Mật khẩu"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:102: Warning: Hardcoded string "Quên mật khẩu?", should use @string resource [HardcodedText]
+            android:text="Quên mật khẩu?"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:117: Warning: Hardcoded string "Đăng nhập", should use @string resource [HardcodedText]
+            android:text="Đăng nhập"
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:143: Warning: Hardcoded string "hoặc", should use @string resource [HardcodedText]
+            android:text="hoặc"
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:168: Warning: Hardcoded string "Đăng nhập với Google", should use @string resource [HardcodedText]
+            android:text="Đăng nhập với Google"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:192: Warning: Hardcoded string "Chưa có tài khoản? ", should use @string resource [HardcodedText]
+                android:text="Chưa có tài khoản? "
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_login.xml:200: Warning: Hardcoded string "Đăng ký ngay", should use @string resource [HardcodedText]
+                android:text="Đăng ký ngay"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:42: Warning: Hardcoded string "Đăng ký tài khoản", should use @string resource [HardcodedText]
+            android:text="Đăng ký tài khoản"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:55: Warning: Hardcoded string "Tạo tài khoản mới để bắt đầu sử dụng", should use @string resource [HardcodedText]
+            android:text="Tạo tài khoản mới để bắt đầu sử dụng"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:69: Warning: Hardcoded string "Tên đăng nhập", should use @string resource [HardcodedText]
+            android:hint="Tên đăng nhập"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:90: Warning: Hardcoded string "Email (Gmail)", should use @string resource [HardcodedText]
+            android:hint="Email (Gmail)"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:111: Warning: Hardcoded string "Mật khẩu", should use @string resource [HardcodedText]
+            android:hint="Mật khẩu"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:133: Warning: Hardcoded string "Xác nhận mật khẩu", should use @string resource [HardcodedText]
+            android:hint="Xác nhận mật khẩu"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:155: Warning: Hardcoded string "Đăng ký", should use @string resource [HardcodedText]
+            android:text="Đăng ký"
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:178: Warning: Hardcoded string "Đã có tài khoản? ", should use @string resource [HardcodedText]
+                android:text="Đã có tài khoản? "
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_register.xml:186: Warning: Hardcoded string "Đăng nhập ngay", should use @string resource [HardcodedText]
+                android:text="Đăng nhập ngay"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_reset_password.xml:42: Warning: Hardcoded string "Đặt lại mật khẩu", should use @string resource [HardcodedText]
+            android:text="Đặt lại mật khẩu"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_reset_password.xml:55: Warning: Hardcoded string "Nhập mật khẩu mới cho tài khoản của bạn", should use @string resource [HardcodedText]
+            android:text="Nhập mật khẩu mới cho tài khoản của bạn"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_reset_password.xml:70: Warning: Hardcoded string "Mật khẩu mới", should use @string resource [HardcodedText]
+            android:hint="Mật khẩu mới"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_reset_password.xml:92: Warning: Hardcoded string "Xác nhận mật khẩu mới", should use @string resource [HardcodedText]
+            android:hint="Xác nhận mật khẩu mới"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\activity_reset_password.xml:114: Warning: Hardcoded string "Đặt lại mật khẩu", should use @string resource [HardcodedText]
+            android:text="Đặt lại mật khẩu"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\item_chat_history.xml:30: Warning: Hardcoded string "Tiêu đề đoạn chat", should use @string resource [HardcodedText]
+                android:text="Tiêu đề đoạn chat"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\item_chat_history.xml:41: Warning: Hardcoded string "12/08/2024 14:30", should use @string resource [HardcodedText]
+                android:text="12/08/2024 14:30"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\item_chat_history.xml:52: Warning: Hardcoded string "Nội dung preview của đoạn chat...", should use @string resource [HardcodedText]
+            android:text="Nội dung preview của đoạn chat..."
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\item_chat_history.xml:69: Warning: Hardcoded string "5 tin nhắn", should use @string resource [HardcodedText]
+                android:text="5 tin nhắn"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\item_chat_message.xml:33: Warning: Hardcoded string "User message", should use @string resource [HardcodedText]
+                android:text="User message"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\item_chat_message.xml:75: Warning: Hardcoded string "Bot Avatar", should use @string resource [HardcodedText]
+                    android:contentDescription="Bot Avatar" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\item_chat_message.xml:92: Warning: Hardcoded string "Bot message", should use @string resource [HardcodedText]
+                    android:text="Bot message"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\res\layout\item_chat_message.xml:161: Warning: Hardcoded string "Bot Avatar", should use @string resource [HardcodedText]
+                android:contentDescription="Bot Avatar" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 241 warnings

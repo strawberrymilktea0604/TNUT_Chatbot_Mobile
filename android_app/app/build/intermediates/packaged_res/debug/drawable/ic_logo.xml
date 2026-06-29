@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+    
+    <!-- Circle background -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M40,8 C21.8,8 8,21.8 8,40 C8,58.2 21.8,72 40,72 C58.2,72 72,58.2 72,40 C72,21.8 58.2,8 40,8 Z"/>
+    
+    <!-- Letters TNUT -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M20,25 L32,25 L32,29 L28,29 L28,50 L24,50 L24,29 L20,29 Z"/>
+    
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M35,25 L39,25 L39,42 L50,25 L54,25 L54,50 L50,50 L50,33 L39,50 L35,50 Z"/>
+    
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M56,25 L68,25 L68,38 L62,38 L62,50 L58,50 L58,25 Z"/>
+    
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M24,52 L32,52 L32,56 L28,56 L28,65 L24,65 L24,56 L20,56 L20,52 L24,52 Z"/>
+    
+</vector>

@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_logo_background_circle.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/logo_background_circle.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_person.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_start_button_background.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/start_button_background.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_rounded_background.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/rounded_background.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_lock.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_welcome.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_copy.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_copy.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_forgot_password.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_item_chat_message.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/item_chat_message.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_reset_password.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_reset_password.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_change_email_verification.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_change_email_verification.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_message_slide_in.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/message_slide_in.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_change_email.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_change_email.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_error.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_error.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_splash.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_email.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_email_verification.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_email_verification.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_email_verification.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_email_verification.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_item_chat_history.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/item_chat_history.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_typing_dot_animation.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/typing_dot_animation.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/menu_drawer_menu.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_nav_header_main.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_typing_indicator.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/typing_indicator.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_slide_out_left.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_refresh.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_slide_out_right.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/raw_typing.json.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/raw/typing.json"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_change_password.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_bounce_in.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/bounce_in.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_button_send_selector.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/button_send_selector.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_edit_text_background.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_fade_in.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_reset_password.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_send.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_send.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_slide_in_left.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_slide_in_right.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_decoration_1.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_decoration_1.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_history.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_logout.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_slide_in_bottom.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_bg_code_input.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/bg_code_input.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_google.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_nav_header_bg.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/nav_header_bg.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_typing_dot.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/typing_dot.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_google_register.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_google_register.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/xml_backup_rules.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/anim_fade_out.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_login.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_logo.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_chat_history.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_chat_history.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_welcome_background.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/welcome_background.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_user_avatar.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_user_avatar.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_add_circle.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_add_circle.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_logo.png.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_bot_avatar.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_bot_avatar.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_main.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.tnutchatboxapp-merged_res-65:/layout_activity_register.xml.flat",
+        "source": "com.example.tnutchatboxapp-main-66:/layout/activity_register.xml"
+    }
+]

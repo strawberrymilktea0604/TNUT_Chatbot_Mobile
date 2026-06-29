@@ -1,0 +1,2404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="incidents">
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email.xml"
+            line="14"
+            column="10"
+            startOffset="521"
+            endLine="14"
+            endColumn="19"
+            endOffset="530"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đổi email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email.xml"
+            line="29"
+            column="13"
+            startOffset="1141"
+            endLine="29"
+            endColumn="37"
+            endOffset="1165"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email hiện tại&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email.xml"
+            line="62"
+            column="21"
+            startOffset="2668"
+            endLine="62"
+            endColumn="50"
+            endOffset="2697"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email mới&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email.xml"
+            line="82"
+            column="21"
+            startOffset="3712"
+            endLine="82"
+            endColumn="45"
+            endOffset="3736"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Hủy&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email.xml"
+            line="108"
+            column="25"
+            startOffset="4993"
+            endLine="108"
+            endColumn="43"
+            endOffset="5011"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Gửi mã xác nhận&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email.xml"
+            line="121"
+            column="25"
+            startOffset="5684"
+            endLine="121"
+            endColumn="55"
+            endOffset="5714"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="14"
+            column="10"
+            startOffset="521"
+            endLine="14"
+            endColumn="19"
+            endOffset="530"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Xác nhận email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="29"
+            column="13"
+            startOffset="1144"
+            endLine="29"
+            endColumn="42"
+            endOffset="1173"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Vui lòng nhập mã xác thực được gửi đến email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="43"
+            column="13"
+            startOffset="1746"
+            endLine="43"
+            endColumn="72"
+            endOffset="1805"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;lm*********************@gmail.com&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="56"
+            column="13"
+            startOffset="2335"
+            endLine="56"
+            endColumn="61"
+            endOffset="2383"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="92"
+            column="22"
+            startOffset="3958"
+            endLine="92"
+            endColumn="30"
+            endOffset="3966"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="105"
+            column="22"
+            startOffset="4591"
+            endLine="105"
+            endColumn="30"
+            endOffset="4599"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="118"
+            column="22"
+            startOffset="5224"
+            endLine="118"
+            endColumn="30"
+            endOffset="5232"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="131"
+            column="22"
+            startOffset="5857"
+            endLine="131"
+            endColumn="30"
+            endOffset="5865"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="144"
+            column="22"
+            startOffset="6490"
+            endLine="144"
+            endColumn="30"
+            endOffset="6498"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="157"
+            column="22"
+            startOffset="7123"
+            endLine="157"
+            endColumn="30"
+            endOffset="7131"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Bạn chưa nhận được mã?&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="183"
+            column="25"
+            startOffset="8291"
+            endLine="183"
+            endColumn="62"
+            endOffset="8328"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Gửi lại (58)&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="192"
+            column="25"
+            startOffset="8749"
+            endLine="192"
+            endColumn="52"
+            endOffset="8776"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Hủy&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="212"
+            column="25"
+            startOffset="9631"
+            endLine="212"
+            endColumn="43"
+            endOffset="9649"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Xác nhận&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="225"
+            column="25"
+            startOffset="10326"
+            endLine="225"
+            endColumn="48"
+            endOffset="10349"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_password.xml"
+            line="14"
+            column="10"
+            startOffset="521"
+            endLine="14"
+            endColumn="19"
+            endOffset="530"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đổi mật khẩu&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_password.xml"
+            line="29"
+            column="13"
+            startOffset="1141"
+            endLine="29"
+            endColumn="40"
+            endOffset="1168"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Mật khẩu hiện tại&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_password.xml"
+            line="62"
+            column="21"
+            startOffset="2665"
+            endLine="62"
+            endColumn="53"
+            endOffset="2697"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Mật khẩu mới&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_password.xml"
+            line="82"
+            column="21"
+            startOffset="3722"
+            endLine="82"
+            endColumn="48"
+            endOffset="3749"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Xác nhận mật khẩu mới&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_password.xml"
+            line="102"
+            column="21"
+            startOffset="4782"
+            endLine="102"
+            endColumn="57"
+            endOffset="4818"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Hủy&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_password.xml"
+            line="129"
+            column="25"
+            startOffset="6132"
+            endLine="129"
+            endColumn="43"
+            endOffset="6150"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Xác nhận&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_password.xml"
+            line="142"
+            column="25"
+            startOffset="6822"
+            endLine="142"
+            endColumn="48"
+            endOffset="6845"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Chưa có lịch sử đoạn chat nào.\nHãy bắt đầu cuộc trò chuyện đầu tiên!&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_chat_history.xml"
+            line="46"
+            column="13"
+            startOffset="1869"
+            endLine="46"
+            endColumn="97"
+            endOffset="1953"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="17"
+            column="10"
+            startOffset="659"
+            endLine="17"
+            endColumn="21"
+            endOffset="670"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="27"
+            column="10"
+            startOffset="1096"
+            endLine="27"
+            endColumn="19"
+            endOffset="1105"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Xác nhận email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="42"
+            column="13"
+            startOffset="1747"
+            endLine="42"
+            endColumn="42"
+            endOffset="1776"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Vui lòng nhập mã xác nhận 6 chữ số&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="55"
+            column="13"
+            startOffset="2309"
+            endLine="55"
+            endColumn="62"
+            endOffset="2358"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Mã xác nhận đã được gửi đến email@gmail.com&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="68"
+            column="13"
+            startOffset="2894"
+            endLine="68"
+            endColumn="71"
+            endOffset="2952"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="88"
+            column="14"
+            startOffset="3820"
+            endLine="88"
+            endColumn="22"
+            endOffset="3828"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="101"
+            column="14"
+            startOffset="4363"
+            endLine="101"
+            endColumn="22"
+            endOffset="4371"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="114"
+            column="14"
+            startOffset="4906"
+            endLine="114"
+            endColumn="22"
+            endOffset="4914"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="127"
+            column="14"
+            startOffset="5449"
+            endLine="127"
+            endColumn="22"
+            endOffset="5457"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="140"
+            column="14"
+            startOffset="5992"
+            endLine="140"
+            endColumn="22"
+            endOffset="6000"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="153"
+            column="14"
+            startOffset="6535"
+            endLine="153"
+            endColumn="22"
+            endOffset="6543"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Xác nhận&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="173"
+            column="13"
+            startOffset="7319"
+            endLine="173"
+            endColumn="36"
+            endOffset="7342"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Gửi lại mã&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="190"
+            column="13"
+            startOffset="8108"
+            endLine="190"
+            endColumn="38"
+            endOffset="8133"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Lỗi ứng dụng&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_error.xml"
+            line="15"
+            column="13"
+            startOffset="509"
+            endLine="15"
+            endColumn="40"
+            endOffset="536"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đóng ứng dụng&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_error.xml"
+            line="32"
+            column="13"
+            startOffset="1149"
+            endLine="32"
+            endColumn="41"
+            endOffset="1177"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_forgot_password.xml"
+            line="17"
+            column="10"
+            startOffset="656"
+            endLine="17"
+            endColumn="21"
+            endOffset="667"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_forgot_password.xml"
+            line="27"
+            column="10"
+            startOffset="1093"
+            endLine="27"
+            endColumn="19"
+            endOffset="1102"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Quên mật khẩu?&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_forgot_password.xml"
+            line="42"
+            column="13"
+            startOffset="1740"
+            endLine="42"
+            endColumn="42"
+            endOffset="1769"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Nhập email của bạn để nhận mật khẩu mới qua email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_forgot_password.xml"
+            line="55"
+            column="13"
+            startOffset="2301"
+            endLine="55"
+            endColumn="77"
+            endOffset="2365"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_forgot_password.xml"
+            line="70"
+            column="13"
+            startOffset="3062"
+            endLine="70"
+            endColumn="33"
+            endOffset="3082"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đặt lại mật khẩu&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_forgot_password.xml"
+            line="91"
+            column="13"
+            startOffset="4000"
+            endLine="91"
+            endColumn="44"
+            endOffset="4031"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="17"
+            column="10"
+            startOffset="656"
+            endLine="17"
+            endColumn="21"
+            endOffset="667"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="27"
+            column="10"
+            startOffset="1093"
+            endLine="27"
+            endColumn="19"
+            endOffset="1102"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Hoàn tất đăng ký&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="42"
+            column="13"
+            startOffset="1726"
+            endLine="42"
+            endColumn="44"
+            endOffset="1757"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Vui lòng cung cấp thông tin để hoàn tất đăng ký&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="55"
+            column="13"
+            startOffset="2298"
+            endLine="55"
+            endColumn="75"
+            endOffset="2360"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;email@gmail.com&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="68"
+            column="13"
+            startOffset="2899"
+            endLine="68"
+            endColumn="43"
+            endOffset="2929"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Tên đăng nhập&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="86"
+            column="13"
+            startOffset="3764"
+            endLine="86"
+            endColumn="41"
+            endOffset="3792"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Mật khẩu&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="107"
+            column="13"
+            startOffset="4763"
+            endLine="107"
+            endColumn="36"
+            endOffset="4786"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Xác nhận mật khẩu&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="129"
+            column="13"
+            startOffset="5823"
+            endLine="129"
+            endColumn="45"
+            endOffset="5855"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Hoàn tất đăng ký&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="151"
+            column="13"
+            startOffset="6827"
+            endLine="151"
+            endColumn="44"
+            endOffset="6858"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="17"
+            column="10"
+            startOffset="647"
+            endLine="17"
+            endColumn="19"
+            endOffset="656"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đăng nhập&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="32"
+            column="13"
+            startOffset="1269"
+            endLine="32"
+            endColumn="37"
+            endOffset="1293"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đăng nhập để tiếp tục sử dụng ứng dụng&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="45"
+            column="13"
+            startOffset="1834"
+            endLine="45"
+            endColumn="66"
+            endOffset="1887"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Tên đăng nhập&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="59"
+            column="13"
+            startOffset="2542"
+            endLine="59"
+            endColumn="41"
+            endOffset="2570"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Mật khẩu&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="80"
+            column="13"
+            startOffset="3544"
+            endLine="80"
+            endColumn="36"
+            endOffset="3567"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Quên mật khẩu?&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="102"
+            column="13"
+            startOffset="4515"
+            endLine="102"
+            endColumn="42"
+            endOffset="4544"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đăng nhập&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="117"
+            column="13"
+            startOffset="5193"
+            endLine="117"
+            endColumn="37"
+            endOffset="5217"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;hoặc&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="143"
+            column="13"
+            startOffset="6337"
+            endLine="143"
+            endColumn="32"
+            endOffset="6356"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đăng nhập với Google&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="168"
+            column="13"
+            startOffset="7519"
+            endLine="168"
+            endColumn="48"
+            endOffset="7554"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Chưa có tài khoản? &quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="192"
+            column="17"
+            startOffset="8564"
+            endLine="192"
+            endColumn="51"
+            endOffset="8598"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đăng ký ngay&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="200"
+            column="17"
+            startOffset="8903"
+            endLine="200"
+            endColumn="44"
+            endOffset="8930"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="17"
+            column="10"
+            startOffset="650"
+            endLine="17"
+            endColumn="21"
+            endOffset="661"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="27"
+            column="10"
+            startOffset="1087"
+            endLine="27"
+            endColumn="19"
+            endOffset="1096"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đăng ký tài khoản&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="42"
+            column="13"
+            startOffset="1720"
+            endLine="42"
+            endColumn="45"
+            endOffset="1752"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Tạo tài khoản mới để bắt đầu sử dụng&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="55"
+            column="13"
+            startOffset="2293"
+            endLine="55"
+            endColumn="64"
+            endOffset="2344"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Tên đăng nhập&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="69"
+            column="13"
+            startOffset="3002"
+            endLine="69"
+            endColumn="41"
+            endOffset="3030"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email (Gmail)&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="90"
+            column="13"
+            startOffset="4001"
+            endLine="90"
+            endColumn="41"
+            endOffset="4029"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Mật khẩu&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="111"
+            column="13"
+            startOffset="5014"
+            endLine="111"
+            endColumn="36"
+            endOffset="5037"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Xác nhận mật khẩu&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="133"
+            column="13"
+            startOffset="6071"
+            endLine="133"
+            endColumn="45"
+            endOffset="6103"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đăng ký&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="155"
+            column="13"
+            startOffset="7075"
+            endLine="155"
+            endColumn="35"
+            endOffset="7097"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đã có tài khoản? &quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="178"
+            column="17"
+            startOffset="8086"
+            endLine="178"
+            endColumn="49"
+            endOffset="8118"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đăng nhập ngay&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="186"
+            column="17"
+            startOffset="8420"
+            endLine="186"
+            endColumn="46"
+            endOffset="8449"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
+            line="17"
+            column="10"
+            startOffset="655"
+            endLine="17"
+            endColumn="21"
+            endOffset="666"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
+            line="27"
+            column="10"
+            startOffset="1092"
+            endLine="27"
+            endColumn="19"
+            endOffset="1101"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đặt lại mật khẩu&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
+            line="42"
+            column="13"
+            startOffset="1738"
+            endLine="42"
+            endColumn="44"
+            endOffset="1769"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Nhập mật khẩu mới cho tài khoản của bạn&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
+            line="55"
+            column="13"
+            startOffset="2301"
+            endLine="55"
+            endColumn="67"
+            endOffset="2355"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Mật khẩu mới&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
+            line="70"
+            column="13"
+            startOffset="3065"
+            endLine="70"
+            endColumn="40"
+            endOffset="3092"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Xác nhận mật khẩu mới&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
+            line="92"
+            column="13"
+            startOffset="4129"
+            endLine="92"
+            endColumn="49"
+            endOffset="4165"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Đặt lại mật khẩu&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
+            line="114"
+            column="13"
+            startOffset="5151"
+            endLine="114"
+            endColumn="44"
+            endOffset="5182"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_splash.xml"
+            line="9"
+            column="6"
+            startOffset="343"
+            endLine="9"
+            endColumn="15"
+            endOffset="352"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Tiêu đề đoạn chat&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_chat_history.xml"
+            line="30"
+            column="17"
+            startOffset="1155"
+            endLine="30"
+            endColumn="49"
+            endOffset="1187"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;12/08/2024 14:30&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_chat_history.xml"
+            line="41"
+            column="17"
+            startOffset="1607"
+            endLine="41"
+            endColumn="48"
+            endOffset="1638"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Nội dung preview của đoạn chat...&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_chat_history.xml"
+            line="52"
+            column="13"
+            startOffset="1993"
+            endLine="52"
+            endColumn="61"
+            endOffset="2041"/>
+    </incident>
+
+    <incident
+        id="UseCompatTextViewDrawableXml"
+        severity="warning"
+        message="Use `app:drawableStartCompat` instead of `android:drawableStart`">
+        <fix-composite>
+            <fix-attribute
+                description="Set drawableStartCompat=&quot;@drawable/ic_history&quot;"
+                namespace="http://schemas.android.com/apk/res-auto"
+                attribute="drawableStartCompat"
+                value="@drawable/ic_history"/>
+            <fix-attribute
+                description="Delete drawableStart"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="drawableStart"/>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_chat_history.xml"
+            line="72"
+            column="17"
+            startOffset="2805"
+            endLine="72"
+            endColumn="61"
+            endOffset="2849"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;5 tin nhắn&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_chat_history.xml"
+            line="69"
+            column="17"
+            startOffset="2663"
+            endLine="69"
+            endColumn="42"
+            endOffset="2688"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;User message&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_chat_message.xml"
+            line="33"
+            column="17"
+            startOffset="1355"
+            endLine="33"
+            endColumn="44"
+            endOffset="1382"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Bot Avatar&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_chat_message.xml"
+            line="75"
+            column="21"
+            startOffset="3037"
+            endLine="75"
+            endColumn="60"
+            endOffset="3076"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Bot message&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_chat_message.xml"
+            line="92"
+            column="21"
+            startOffset="3823"
+            endLine="92"
+            endColumn="47"
+            endOffset="3849"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Bot Avatar&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_chat_message.xml"
+            line="161"
+            column="17"
+            startOffset="6549"
+            endLine="161"
+            endColumn="56"
+            endOffset="6588"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `FrameLayout` layout or its `LinearLayout` parent is unnecessary">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/typing_indicator.xml"
+            line="11"
+            column="6"
+            startOffset="436"
+            endLine="11"
+            endColumn="17"
+            endOffset="447"/>
+    </incident>
+
+    <incident
+        id="TypographyEllipsis"
+        severity="warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?">
+        <fix-replace
+            description="Replace with …"
+            oldString="..."
+            replacement="…"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="33"
+            startOffset="206"
+            endLine="5"
+            endColumn="56"
+            endOffset="229"/>
+    </incident>
+
+    <incident
+        id="TypographyEllipsis"
+        severity="warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?">
+        <fix-replace
+            description="Replace with …"
+            oldString="..."
+            replacement="…"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="8"
+            column="36"
+            startOffset="382"
+            endLine="8"
+            endColumn="52"
+            endOffset="398"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/tnutchatboxapp/account/ChangeEmailVerificationActivity.kt"
+            line="227"
+            column="51"
+            startOffset="8637"
+            endLine="227"
+            endColumn="78"
+            endOffset="8664"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/tnutchatboxapp/adapter/ChatAdapter.kt"
+            line="162"
+            column="9"
+            startOffset="6842"
+            endLine="162"
+            endColumn="31"
+            endOffset="6864"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/tnutchatboxapp/adapter/ChatHistoryAdapter.kt"
+            line="35"
+            column="40"
+            startOffset="1511"
+            endLine="35"
+            endColumn="74"
+            endOffset="1545"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/tnutchatboxapp/adapter/ChatHistoryAdapter.kt"
+            line="35"
+            column="64"
+            startOffset="1535"
+            endLine="35"
+            endColumn="73"
+            endOffset="1544"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/tnutchatboxapp/ChatHistoryActivity.kt"
+            line="67"
+            column="21"
+            startOffset="2494"
+            endLine="67"
+            endColumn="58"
+            endOffset="2531"/>
+    </incident>
+
+    <incident
+        id="StaticFieldLeak"
+        severity="warning"
+        message="Do not place Android context classes in static fields (static reference to `ApiRepository` which has field `context` pointing to `Context`); this is a memory leak">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/tnutchatboxapp/network/ApiRepository.kt"
+            line="170"
+            column="9"
+            startOffset="7098"
+            endLine="171"
+            endColumn="52"
+            endOffset="7159"/>
+    </incident>
+
+    <incident
+        id="DataBindingWithoutKapt"
+        severity="warning"
+        message="If you plan to use data binding in a Kotlin project, you should apply the kotlin-kapt plugin.">
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="39"
+            column="9"
+            startOffset="937"
+            endLine="39"
+            endColumn="27"
+            endOffset="955"/>
+    </incident>
+
+    <incident
+        id="BomWithoutPlatform"
+        severity="warning"
+        message="BOM should be added with a call to platform()">
+        <fix-replace
+            description="Add platform() to BOM declaration"
+            family="Add platform() to BOM declaration"
+            oldString="&quot;com.google.firebase:firebase-bom:32.7.2&quot;"
+            replacement="platform(&quot;com.google.firebase:firebase-bom:32.7.2&quot;)"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="77"
+            column="21"
+            startOffset="2423"
+            endLine="77"
+            endColumn="60"
+            endOffset="2462"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0">
+        <fix-replace
+            description="Change to 1.17.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.17.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="45"
+            column="21"
+            startOffset="1001"
+            endLine="45"
+            endColumn="50"
+            endOffset="1030"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="46"
+            column="21"
+            startOffset="1053"
+            endLine="46"
+            endColumn="55"
+            endOffset="1087"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.13.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="47"
+            column="21"
+            startOffset="1110"
+            endLine="47"
+            endColumn="64"
+            endOffset="1153"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="48"
+            column="21"
+            startOffset="1176"
+            endLine="48"
+            endColumn="69"
+            endOffset="1224"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.6 is available: 2.9.5">
+        <fix-replace
+            description="Change to 2.9.5"
+            family="Update versions"
+            oldString="2.7.6"
+            replacement="2.9.5"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="51"
+            column="21"
+            startOffset="1280"
+            endLine="51"
+            endColumn="70"
+            endOffset="1329"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-ui-ktx than 2.7.6 is available: 2.9.5">
+        <fix-replace
+            description="Change to 2.9.5"
+            family="Update versions"
+            oldString="2.7.6"
+            replacement="2.9.5"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="52"
+            column="21"
+            startOffset="1352"
+            endLine="52"
+            endColumn="64"
+            endOffset="1395"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.9.4">
+        <fix-replace
+            description="Change to 2.9.4"
+            family="Update versions"
+            oldString="2.7.0"
+            replacement="2.9.4"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="58"
+            column="21"
+            startOffset="1539"
+            endLine="58"
+            endColumn="69"
+            endOffset="1587"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.9.4">
+        <fix-replace
+            description="Change to 2.9.4"
+            family="Update versions"
+            oldString="2.7.0"
+            replacement="2.9.4"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="59"
+            column="21"
+            startOffset="1610"
+            endLine="59"
+            endColumn="68"
+            endOffset="1657"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-ktx than 1.8.2 is available: 1.11.0">
+        <fix-replace
+            description="Change to 1.11.0"
+            family="Update versions"
+            oldString="1.8.2"
+            replacement="1.11.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="66"
+            column="21"
+            startOffset="1892"
+            endLine="66"
+            endColumn="57"
+            endOffset="1928"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.fragment:fragment-ktx than 1.6.2 is available: 1.8.9">
+        <fix-replace
+            description="Change to 1.8.9"
+            family="Update versions"
+            oldString="1.6.2"
+            replacement="1.8.9"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="67"
+            column="21"
+            startOffset="1951"
+            endLine="67"
+            endColumn="57"
+            endOffset="1987"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-auth than 20.7.0 is available: 21.4.0">
+        <fix-replace
+            description="Change to 21.4.0"
+            family="Update versions"
+            oldString="20.7.0"
+            replacement="21.4.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="75"
+            column="21"
+            startOffset="2289"
+            endLine="75"
+            endColumn="69"
+            endOffset="2337"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-auth than 22.3.1 is available: 24.0.1">
+        <fix-replace
+            description="Change to 24.0.1"
+            family="Update versions"
+            oldString="22.3.1"
+            replacement="24.0.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="76"
+            column="21"
+            startOffset="2360"
+            endLine="76"
+            endColumn="61"
+            endOffset="2400"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-bom than 32.7.2 is available: 34.3.0">
+        <fix-replace
+            description="Change to 34.3.0"
+            family="Update versions"
+            oldString="32.7.2"
+            replacement="34.3.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="77"
+            column="21"
+            startOffset="2423"
+            endLine="77"
+            endColumn="60"
+            endOffset="2462"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0">
+        <fix-replace
+            description="Change to 1.4.0"
+            family="Update versions"
+            oldString="1.3.2"
+            replacement="1.4.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="89"
+            column="21"
+            startOffset="2766"
+            endLine="89"
+            endColumn="61"
+            endOffset="2806"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.3.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="108"
+            column="32"
+            startOffset="3471"
+            endLine="108"
+            endColumn="61"
+            endOffset="3500"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.7.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="109"
+            column="32"
+            startOffset="3534"
+            endLine="109"
+            endColumn="74"
+            endOffset="3576"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme.TNUTChatBoxApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email.xml"
+            line="6"
+            column="5"
+            startOffset="256"
+            endLine="6"
+            endColumn="49"
+            endOffset="300"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme.TNUTChatBoxApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_email_verification.xml"
+            line="6"
+            column="5"
+            startOffset="256"
+            endLine="6"
+            endColumn="49"
+            endOffset="300"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme.TNUTChatBoxApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_change_password.xml"
+            line="6"
+            column="5"
+            startOffset="256"
+            endLine="6"
+            endColumn="49"
+            endOffset="300"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme.TNUTChatBoxApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_email_verification.xml"
+            line="8"
+            column="5"
+            startOffset="341"
+            endLine="8"
+            endColumn="49"
+            endOffset="385"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme_TNUTChatBoxApp_NoActionBar`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_forgot_password.xml"
+            line="8"
+            column="5"
+            startOffset="341"
+            endLine="8"
+            endColumn="49"
+            endOffset="385"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme_TNUTChatBoxApp_NoActionBar`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_google_register.xml"
+            line="8"
+            column="5"
+            startOffset="341"
+            endLine="8"
+            endColumn="49"
+            endOffset="385"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme_TNUTChatBoxApp_NoActionBar`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="8"
+            column="5"
+            startOffset="341"
+            endLine="8"
+            endColumn="49"
+            endOffset="385"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme_TNUTChatBoxApp_NoActionBar`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="8"
+            column="5"
+            startOffset="341"
+            endLine="8"
+            endColumn="49"
+            endOffset="385"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme_TNUTChatBoxApp_NoActionBar`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
+            line="8"
+            column="5"
+            startOffset="341"
+            endLine="8"
+            endColumn="49"
+            endOffset="385"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@android:color/white` with a theme that also paints a background (inferred theme is `@style/Theme.TNUTChatBoxApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_splash.xml"
+            line="6"
+            column="5"
+            startOffset="255"
+            endLine="6"
+            endColumn="46"
+            endOffset="296"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/logo.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/logo.png"/>
+    </incident>
+
+    <incident
+        id="IconDipSize"
+        severity="warning"
+        message="The image `ic_launcher.png` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi\ic_launcher.png: 560x560 dp (840x840 px), mipmap-mdpi\ic_launcher.png: 840x840 dp (840x840 px), mipmap-xhdpi\ic_launcher.png: 420x420 dp (840x840 px), mipmap-xxhdpi\ic_launcher.png: 280x280 dp (840x840 px), mipmap-xxxhdpi\ic_launcher.png: 210x210 dp (840x840 px)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxxhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-hdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-mdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconDuplicates"
+        severity="warning"
+        message="The following unrelated icon files have identical contents: logo.png, ic_launcher.png, ic_launcher.png, ic_launcher.png, ic_launcher.png, ic_launcher.png">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxxhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-mdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-hdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/logo.png"/>
+    </incident>
+
+</incidents>

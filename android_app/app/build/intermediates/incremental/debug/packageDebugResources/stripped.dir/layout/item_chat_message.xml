@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/chat_message_margin">
+
+    <!-- User message layout -->
+    <LinearLayout
+        android:id="@+id/userMessageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:visibility="gone"
+        android:layout_marginBottom="4dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="16dp"
+            app:cardBackgroundColor="@color/user_message_bg"
+            app:cardCornerRadius="@dimen/chat_message_radius"
+            app:cardElevation="2dp"
+            app:strokeWidth="0dp">
+
+            <TextView
+                android:id="@+id/userMessageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/chat_message_padding"
+                android:text="User message"
+                android:textColor="@color/primary_color"
+                android:textSize="16sp"
+                android:lineSpacingExtra="2dp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <!-- Bot message layout with avatar -->
+    <LinearLayout
+        android:id="@+id/botMessageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Bot Avatar -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/avatar_size"
+                android:layout_height="@dimen/avatar_size"
+                android:layout_marginEnd="@dimen/avatar_margin"
+                android:layout_marginStart="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/primary_color"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:id="@+id/botAvatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/logo"
+                    android:padding="6dp"
+                    android:contentDescription="Bot Avatar" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Bot Message -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="64dp"
+                app:cardBackgroundColor="@color/bot_message_bg"
+                app:cardCornerRadius="@dimen/chat_message_radius">
+
+                <TextView
+                    android:id="@+id/botMessageText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/chat_message_padding"
+                    android:text="Bot message"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="2dp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <!-- Bot Message Actions -->
+        <LinearLayout
+            android:id="@+id/botMessageActions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="4dp"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/buttonCopyMessage"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_copy"
+                android:contentDescription="@string/copy_message"
+                android:padding="6dp" />
+
+            <ImageButton
+                android:id="@+id/buttonRegenerateMessage"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_refresh"
+                android:contentDescription="@string/regenerate_message"
+                android:padding="6dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Loading layout -->
+    <LinearLayout
+        android:id="@+id/loadingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_marginBottom="4dp">
+
+        <!-- Bot Avatar for loading -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:layout_marginEnd="@dimen/avatar_margin"
+            android:layout_marginStart="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/primary_color"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="4dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo"
+                android:padding="6dp"
+                android:contentDescription="Bot Avatar" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Loading Animation -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/bot_message_bg"
+            app:cardCornerRadius="@dimen/chat_message_radius"
+            app:cardElevation="2dp"
+            app:strokeWidth="0dp">
+
+            <include layout="@layout/typing_indicator" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</LinearLayout>

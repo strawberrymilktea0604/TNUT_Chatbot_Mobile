@@ -1,0 +1,416 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tnutchatboxapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\minhk\.gradle\caches\transforms-3\9e458fe70daa423eb58b7596f2fd60b1\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\minhk\.gradle\caches\transforms-3\9e458fe70daa423eb58b7596f2fd60b1\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+14
+15    <permission
+15-->[androidx.core:core:1.12.0] C:\Users\minhk\.gradle\caches\transforms-3\5b42b78a4f36c6491e3670ad0943d473\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.tnutchatboxapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] C:\Users\minhk\.gradle\caches\transforms-3\5b42b78a4f36c6491e3670ad0943d473\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] C:\Users\minhk\.gradle\caches\transforms-3\5b42b78a4f36c6491e3670ad0943d473\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.tnutchatboxapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] C:\Users\minhk\.gradle\caches\transforms-3\5b42b78a4f36c6491e3670ad0943d473\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] C:\Users\minhk\.gradle\caches\transforms-3\5b42b78a4f36c6491e3670ad0943d473\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:7:5-95:19
+22        android:name="com.example.tnutchatboxapp.MyApplication"
+22-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:8:9-38
+23        android:allowBackup="true"
+23-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.12.0] C:\Users\minhk\.gradle\caches\transforms-3\5b42b78a4f36c6491e3670ad0943d473\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:11:9-65
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:12:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:13:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:14:9-41
+30        android:supportsRtl="true"
+30-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:15:9-35
+31        android:theme="@style/Theme.TNUTChatBoxApp"
+31-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:16:9-52
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:9:9-44
+33
+34        <!-- Splash Activity -->
+35        <activity
+35-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:20:9-23:20
+36            android:name="com.example.tnutchatboxapp.SplashActivity"
+36-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:21:13-43
+37            android:exported="false" >
+37-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:22:13-37
+38        </activity>
+39
+40        <!-- Welcome Activity -->
+41        <activity
+41-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:26:9-34:20
+42            android:name="com.example.tnutchatboxapp.WelcomeActivity"
+42-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:27:13-44
+43            android:exported="true"
+43-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:28:13-36
+44            android:theme="@style/Theme.TNUTChatBoxApp.NoActionBar" >
+44-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:29:13-68
+45            <intent-filter>
+45-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:30:13-33:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:31:17-69
+46-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:31:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:32:17-77
+48-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:32:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <!-- Auth Activities -->
+53        <activity
+53-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:37:9-40:71
+54            android:name="com.example.tnutchatboxapp.auth.LoginActivity"
+54-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:38:13-47
+55            android:exported="false"
+55-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:39:13-37
+56            android:theme="@style/Theme.TNUTChatBoxApp.NoActionBar" />
+56-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:40:13-68
+57        <activity
+57-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:42:9-45:71
+58            android:name="com.example.tnutchatboxapp.auth.RegisterActivity"
+58-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:43:13-50
+59            android:exported="false"
+59-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:44:13-37
+60            android:theme="@style/Theme.TNUTChatBoxApp.NoActionBar" />
+60-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:45:13-68
+61        <activity
+61-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:47:9-50:71
+62            android:name="com.example.tnutchatboxapp.auth.GoogleRegisterActivity"
+62-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:48:13-56
+63            android:exported="false"
+63-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:49:13-37
+64            android:theme="@style/Theme.TNUTChatBoxApp.NoActionBar" />
+64-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:50:13-68
+65        <activity
+65-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:52:9-55:71
+66            android:name="com.example.tnutchatboxapp.auth.ForgotPasswordActivity"
+66-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:53:13-56
+67            android:exported="false"
+67-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:54:13-37
+68            android:theme="@style/Theme.TNUTChatBoxApp.NoActionBar" />
+68-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:55:13-68
+69        <activity
+69-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:57:9-60:71
+70            android:name="com.example.tnutchatboxapp.auth.ResetPasswordActivity"
+70-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:58:13-55
+71            android:exported="false"
+71-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:59:13-37
+72            android:theme="@style/Theme.TNUTChatBoxApp.NoActionBar" />
+72-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:60:13-68
+73
+74        <!-- Main Activity -->
+75        <activity
+75-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:63:9-67:20
+76            android:name="com.example.tnutchatboxapp.MainActivity"
+76-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:64:13-41
+77            android:exported="true"
+77-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:65:13-36
+78            android:theme="@style/Theme.TNUTChatBoxApp.NoActionBar" >
+78-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:66:13-68
+79        </activity>
+80
+81        <!-- Chat History Activity -->
+82        <activity
+82-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:70:9-73:59
+83            android:name="com.example.tnutchatboxapp.ChatHistoryActivity"
+83-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:71:13-48
+84            android:exported="false"
+84-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:72:13-37
+85            android:theme="@style/Theme.TNUTChatBoxApp" />
+85-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:73:13-56
+86
+87        <!-- Account Management Activities -->
+88        <activity
+88-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:76:9-79:59
+89            android:name="com.example.tnutchatboxapp.account.ChangePasswordActivity"
+89-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:77:13-59
+90            android:exported="false"
+90-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:78:13-37
+91            android:theme="@style/Theme.TNUTChatBoxApp" />
+91-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:79:13-56
+92        <activity
+92-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:81:9-84:59
+93            android:name="com.example.tnutchatboxapp.account.ChangeEmailActivity"
+93-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:82:13-56
+94            android:exported="false"
+94-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:83:13-37
+95            android:theme="@style/Theme.TNUTChatBoxApp" />
+95-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:84:13-56
+96        <activity
+96-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:86:9-89:59
+97            android:name="com.example.tnutchatboxapp.account.ChangeEmailVerificationActivity"
+97-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:87:13-68
+98            android:exported="false"
+98-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:88:13-37
+99            android:theme="@style/Theme.TNUTChatBoxApp" />
+99-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:89:13-56
+100        <activity
+100-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:91:9-94:71
+101            android:name="com.example.tnutchatboxapp.ErrorActivity"
+101-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:92:13-42
+102            android:exported="false"
+102-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:93:13-37
+103            android:theme="@style/Theme.TNUTChatBoxApp.NoActionBar" />
+103-->C:\Users\minhk\Downloads\AIChatBoxAndroidAppforDistanceLearningStudentsTNUT\android_app\app\src\main\AndroidManifest.xml:94:13-68
+104
+105        <provider
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minhk\.gradle\caches\transforms-3\7ccb773fe8dc12ee311771fd71f961f3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+106            android:name="androidx.startup.InitializationProvider"
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minhk\.gradle\caches\transforms-3\7ccb773fe8dc12ee311771fd71f961f3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+107            android:authorities="com.example.tnutchatboxapp.androidx-startup"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minhk\.gradle\caches\transforms-3\7ccb773fe8dc12ee311771fd71f961f3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+108            android:exported="false" >
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minhk\.gradle\caches\transforms-3\7ccb773fe8dc12ee311771fd71f961f3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+109            <meta-data
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minhk\.gradle\caches\transforms-3\7ccb773fe8dc12ee311771fd71f961f3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minhk\.gradle\caches\transforms-3\7ccb773fe8dc12ee311771fd71f961f3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+111                android:value="androidx.startup" />
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minhk\.gradle\caches\transforms-3\7ccb773fe8dc12ee311771fd71f961f3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+112            <meta-data
+112-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\minhk\.gradle\caches\transforms-3\16486110f8ef37a0fc01fb7ca671896f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+113                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+113-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\minhk\.gradle\caches\transforms-3\16486110f8ef37a0fc01fb7ca671896f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+114                android:value="androidx.startup" />
+114-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\minhk\.gradle\caches\transforms-3\16486110f8ef37a0fc01fb7ca671896f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+115            <meta-data
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+117                android:value="androidx.startup" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+118        </provider>
+119
+120        <activity
+120-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+121            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+121-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+122            android:excludeFromRecents="true"
+122-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+123            android:exported="false"
+123-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+124-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+125        <!--
+126            Service handling Google Sign-In user revocation. For apps that do not integrate with
+127            Google Sign-In, this service will never be started.
+128        -->
+129        <service
+129-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+130            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+130-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+131            android:exported="true"
+131-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+132            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+132-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+133            android:visibleToInstantApps="true" />
+133-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\minhk\.gradle\caches\transforms-3\967d9420dd716bc87dab1e53a5d7e273\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+134
+135        <activity
+135-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+136            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+136-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+137            android:excludeFromRecents="true"
+137-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+138            android:exported="true"
+138-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+139            android:launchMode="singleTask"
+139-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+140-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+141            <intent-filter>
+141-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+142                <action android:name="android.intent.action.VIEW" />
+142-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+142-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+144-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+145-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+146
+147                <data
+147-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+148                    android:host="firebase.auth"
+148-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+149                    android:path="/"
+149-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+150                    android:scheme="genericidp" />
+150-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+151            </intent-filter>
+152        </activity>
+153        <activity
+153-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+154            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+154-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+155            android:excludeFromRecents="true"
+155-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+156            android:exported="true"
+156-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+157            android:launchMode="singleTask"
+157-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+158-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+159            <intent-filter>
+159-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+160                <action android:name="android.intent.action.VIEW" />
+160-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+160-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+161
+162                <category android:name="android.intent.category.DEFAULT" />
+162-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+162-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+163                <category android:name="android.intent.category.BROWSABLE" />
+163-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+163-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+164
+165                <data
+165-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+166                    android:host="firebase.auth"
+166-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+167                    android:path="/"
+167-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+168                    android:scheme="recaptcha" />
+168-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+169            </intent-filter>
+170        </activity>
+171
+172        <service
+172-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+173            android:name="com.google.firebase.components.ComponentDiscoveryService"
+173-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:67:13-84
+174            android:directBootAware="true"
+174-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+175            android:exported="false" >
+175-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:68:13-37
+176            <meta-data
+176-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+177                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+177-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minhk\.gradle\caches\transforms-3\0751c26f0b4fa57067644f825a815faf\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\e2c6f70443113d4990a25e470a05ad41\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+180                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+180-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\e2c6f70443113d4990a25e470a05ad41\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\e2c6f70443113d4990a25e470a05ad41\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+183                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+183-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+185        </service>
+186
+187        <activity
+187-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\minhk\.gradle\caches\transforms-3\cac1ae7d9d6122f6a72cf5a8f33c3cfc\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+188            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+188-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\minhk\.gradle\caches\transforms-3\cac1ae7d9d6122f6a72cf5a8f33c3cfc\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+189            android:exported="false"
+189-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\minhk\.gradle\caches\transforms-3\cac1ae7d9d6122f6a72cf5a8f33c3cfc\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+190            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+190-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\minhk\.gradle\caches\transforms-3\cac1ae7d9d6122f6a72cf5a8f33c3cfc\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+191
+192        <provider
+192-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+193            android:name="com.google.firebase.provider.FirebaseInitProvider"
+193-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+194            android:authorities="com.example.tnutchatboxapp.firebaseinitprovider"
+194-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+195            android:directBootAware="true"
+195-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+196            android:exported="false"
+196-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+197            android:initOrder="100" />
+197-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minhk\.gradle\caches\transforms-3\2d64209c6db8d33425f82c88e6f9faf9\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+198
+199        <meta-data
+199-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\minhk\.gradle\caches\transforms-3\e07cbe5d09c48d074ffd297c83773686\transformed\play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+200            android:name="com.google.android.gms.version"
+200-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\minhk\.gradle\caches\transforms-3\e07cbe5d09c48d074ffd297c83773686\transformed\play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+201            android:value="@integer/google_play_services_version" />
+201-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\minhk\.gradle\caches\transforms-3\e07cbe5d09c48d074ffd297c83773686\transformed\play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+202
+203        <uses-library
+203-->[androidx.window:window:1.0.0] C:\Users\minhk\.gradle\caches\transforms-3\ec7685da190a7275dbe8fbb52e59bff9\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+204            android:name="androidx.window.extensions"
+204-->[androidx.window:window:1.0.0] C:\Users\minhk\.gradle\caches\transforms-3\ec7685da190a7275dbe8fbb52e59bff9\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+205            android:required="false" />
+205-->[androidx.window:window:1.0.0] C:\Users\minhk\.gradle\caches\transforms-3\ec7685da190a7275dbe8fbb52e59bff9\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+206        <uses-library
+206-->[androidx.window:window:1.0.0] C:\Users\minhk\.gradle\caches\transforms-3\ec7685da190a7275dbe8fbb52e59bff9\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+207            android:name="androidx.window.sidecar"
+207-->[androidx.window:window:1.0.0] C:\Users\minhk\.gradle\caches\transforms-3\ec7685da190a7275dbe8fbb52e59bff9\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+208            android:required="false" />
+208-->[androidx.window:window:1.0.0] C:\Users\minhk\.gradle\caches\transforms-3\ec7685da190a7275dbe8fbb52e59bff9\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+209
+210        <receiver
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+211            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+212            android:directBootAware="false"
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+213            android:enabled="true"
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+214            android:exported="true"
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+215            android:permission="android.permission.DUMP" >
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+216            <intent-filter>
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+217                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+218            </intent-filter>
+219            <intent-filter>
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+220                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+220-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+220-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+221            </intent-filter>
+222            <intent-filter>
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+223                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+224            </intent-filter>
+225            <intent-filter>
+225-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+226                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minhk\.gradle\caches\transforms-3\d601945f025f0894f454a1eb8c97d893\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+227            </intent-filter>
+228        </receiver>
+229    </application>
+230
+231</manifest>

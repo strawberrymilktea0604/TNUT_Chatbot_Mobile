@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    
+    <!-- Decorative Stars -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M30,10 L32,18 L40,18 L34,23 L36,31 L30,26 L24,31 L26,23 L20,18 L28,18 Z" />
+    
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M15,40 L16,45 L21,45 L17,48 L18,53 L15,50 L12,53 L13,48 L9,45 L14,45 Z" />
+    
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M45,45 L46,50 L51,50 L47,53 L48,58 L45,55 L42,58 L43,53 L39,50 L44,50 Z" />
+</vector>

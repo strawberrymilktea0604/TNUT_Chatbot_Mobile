@@ -1,0 +1,25 @@
+<!-- Email verification icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+  <!-- Email icon -->
+  <path
+      android:fillColor="#2196F3"
+      android:pathData="M20,20h80c4.4,0 8,3.6 8,8v64c0,4.4 -3.6,8 -8,8H20c-4.4,0 -8,-3.6 -8,-8V28c0,-4.4 3.6,-8 8,-8z"/>
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M20,28l40,32 40,-32v8L60,68 20,36v-8z"/>
+  <!-- Checkmark circle -->
+  <path
+      android:fillColor="#4CAF50"
+      android:pathData="M85,20 C93.284,20 100,26.716 100,35 C100,43.284 93.284,50 85,50 C76.716,50 70,43.284 70,35 C70,26.716 76.716,20 85,20"/>
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M78,35l4,4 8,-8"
+      android:strokeWidth="3"
+      android:strokeColor="#FFFFFF"
+      android:strokeLineCap="round"
+      android:strokeLineJoin="round"/>
+</vector>

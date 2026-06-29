@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TNUT Learning Distance Students</string>
+    <string name="chat_title">AI ChatBox</string>
+    <string name="message_hint">Nhập câu hỏi của bạn...</string>
+    <string name="type_a_message">Nhập một tin nhắn</string>
+    <string name="send_button">Gửi</string>
+    <string name="loading_message">Đang phản hồi...</string>
+    <string name="welcome_message">Xin chào! Tôi là Chatbot hỗ trợ sinh viên hệ từ xa của trường Đại học Kỹ thuật Công nghiệp - TNUT. Bạn cần giúp đỡ về vấn đề gì?</string>
+    <string name="error_message">Xin lỗi, đã có lỗi xảy ra. Vui lòng thử lại sau.</string>
+    <string name="connection_error">Không thể kết nối đến server. Vui lòng kiểm tra kết nối mạng.</string>
+    <string name="timeout_error">Phản hồi từ server quá lâu. Vui lòng thử lại.</string>
+    
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Chào mừng!</string>
+    <string name="welcome_subtitle">Trợ lý AI dành cho sinh viên hệ đào tạo từ xa của Trường Đại học Kỹ thuật Công nghiệp - TNUT</string>
+    <string name="start_button">Bắt đầu</string>
+    <string name="app_logo">Logo ứng dụng</string>
+    <string name="decoration">Phần tử trang trí</string>
+    
+    <!-- Google OAuth -->
+    <string name="default_web_client_id">683883851117-1tqdv6va5qqtkvqmn7tjnstauonnn4ck.apps.googleusercontent.com</string>
+    
+    <!-- Auth Strings -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="register_title">Đăng ký</string>
+    <string name="email_verification_title">Xác nhận email</string>
+    <string name="forgot_password_title">Quên mật khẩu</string>
+    <string name="reset_password_title">Đặt lại mật khẩu</string>
+    
+    <!-- Form Labels -->
+    <string name="username_hint">Tên đăng nhập</string>
+    <string name="email_hint">Email (Gmail)</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="confirm_password_hint">Xác nhận mật khẩu</string>
+    <string name="new_password_hint">Mật khẩu mới</string>
+    <string name="verification_code_hint">Mã xác nhận</string>
+    
+    <!-- Buttons -->
+    <string name="login_button">Đăng nhập</string>
+    <string name="register_button">Đăng ký</string>
+    <string name="verify_button">Xác nhận</string>
+    <string name="send_code_button">Gửi mã xác nhận</string>
+    <string name="resend_code_button">Gửi lại mã</string>
+    <string name="reset_password_button">Đặt lại mật khẩu</string>
+    <string name="google_signin_button">Đăng nhập với Google</string>
+    <string name="back_button">Quay lại</string>
+    
+    <!-- Messages -->
+    <string name="login_success">Đăng nhập thành công!</string>
+    <string name="register_success">Đăng ký thành công!</string>
+    <string name="verification_sent">Mã xác nhận đã được gửi</string>
+    <string name="password_reset_success">Đặt lại mật khẩu thành công!</string>
+    
+    <!-- Errors -->
+    <string name="network_error">Lỗi kết nối mạng</string>
+    <string name="invalid_credentials">Thông tin đăng nhập không đúng</string>
+    <string name="user_exists">Tài khoản đã tồn tại</string>
+    <string name="invalid_verification_code">Mã xác nhận không đúng</string>
+    <string name="session_expired">Phiên đăng nhập đã hết hạn</string>
+    
+    <!-- Navigation Drawer -->
+    <string name="drawer_open">Mở menu</string>
+    <string name="drawer_close">Đóng menu</string>
+    <string name="nav_new_chat">Đoạn chat mới</string>
+    <string name="nav_chat_history">Lịch sử đoạn chat</string>
+    <string name="nav_change_password">Đổi mật khẩu</string>
+    <string name="nav_change_email">Đổi email</string>
+    <string name="nav_logout">Đăng xuất</string>
+    <string name="nav_account_section">Tài khoản</string>
+    <string name="nav_header_title">Người dùng</string>
+    <string name="nav_header_subtitle">user@gmail.com</string>
+    <string name="nav_header_desc">Avatar người dùng</string>
+    
+    <!-- User Profile -->
+    <string name="user_profile">Thông tin tài khoản</string>
+    <string name="username_label">Tên đăng nhập:</string>
+    <string name="email_label">Email:</string>
+    
+    <!-- Chat -->
+    <string name="new_chat_title">Đoạn chat mới</string>
+    <string name="empty_chat_history">Chưa có lịch sử chat</string>
+    <string name="delete_chat">Xóa đoạn chat</string>
+    <string name="confirm_delete_chat">Bạn có chắc muốn xóa đoạn chat này?</string>
+    <string name="copy_message">Sao chép tin nhắn</string>
+    <string name="regenerate_message">Tạo lại tin nhắn</string>
+    <string name="message_copied">Đã sao chép tin nhắn</string>
+    <string name="chat_history_title">Lịch sử đoạn chat</string>
+    <string name="no_chat_history">Chưa có lịch sử đoạn chat nào.\nHãy bắt đầu cuộc trò chuyện đầu tiên!</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="save">Lưu</string>
+    <string name="edit">Chỉnh sửa</string>
+    
+    <!-- Links -->
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="register_now">Đăng ký ngay</string>
+    <string name="already_have_account">Đã có tài khoản?</string>
+    <string name="login_now">Đăng nhập ngay</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    
+    <!-- Account Management -->
+    <string name="change_password_title">Đổi mật khẩu</string>
+    <string name="change_email_title">Đổi email</string>
+    <string name="current_password_hint">Mật khẩu hiện tại</string>
+    <string name="current_email_hint">Email hiện tại</string>
+    <string name="new_email_hint">Email mới</string>
+    <string name="confirm_button">Xác nhận</string>
+    <string name="send_verification_code">Gửi mã xác nhận</string>
+    
+    <!-- Validation Messages -->
+    <string name="password_must_be_different">Mật khẩu mới phải khác mật khẩu hiện tại</string>
+    <string name="email_must_be_different">Email mới phải khác email hiện tại</string>
+    <string name="enter_all_digits">Vui lòng nhập đầy đủ 6 số</string>
+    <string name="resend_code_with_timer">Gửi lại (%d)</string>
+    <string name="resend_code">Gửi lại</string>
+    <string name="code_not_received">Bạn chưa nhận được mã?</string>
+</resources>

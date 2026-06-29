@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+  <!-- User avatar -->
+  <path
+      android:fillColor="#E3F2FD"
+      android:pathData="M40,0 C62.09,0 80,17.91 80,40 C80,62.09 62.09,80 40,80 C17.91,80 0,62.09 0,40 C0,17.91 17.91,0 40,0"/>
+  <!-- Head -->
+  <path
+      android:fillColor="#2196F3"
+      android:pathData="M40,18 C46.627,18 52,23.373 52,30 C52,36.627 46.627,42 40,42 C33.373,42 28,36.627 28,30 C28,23.373 33.373,18 40,18"/>
+  <!-- Body -->
+  <path
+      android:fillColor="#2196F3"
+      android:pathData="M20,60c0,-11 9,-20 20,-20s20,9 20,20"/>
+</vector>
