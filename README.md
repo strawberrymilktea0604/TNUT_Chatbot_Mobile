@@ -3,11 +3,12 @@
 
 ### ĐỀ TÀI: XÂY DỰNG ỨNG DỤNG CHATBOT TRÊN NỀN TẢNG ANDROID HỖ TRỢ GIÁO VIÊN CHỦ NHIỆM VÀ CỐ VẤN HỌC TẬP CHO SINH VIÊN HỆ ĐÀO TẠO TỪ XA TRƯỜNG ĐHKTCN (TNUT)
 
-[![Build Status](https://img.shields.io/badge/Build-Passed-success?style=flat-square)](#)
-[![Python Version](https://img.shields.io/badge/Python-3.11-blue?style=flat-square)](#)
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.9-purple?style=flat-square)](#)
-[![React](https://img.shields.io/badge/React-18.2-cyan?style=flat-square)](#)
-[![Database](https://img.shields.io/badge/Database-MongoDB%20%7C%20Qdrant-darkgreen?style=flat-square)](#)
+[![Build Status](https://img.shields.io/badge/Build-Passed-success?style=flat-square&logo=github&logoColor=white)](#)
+[![Python Version](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python&logoColor=white)](#)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9-purple?style=flat-square&logo=kotlin&logoColor=white)](#)
+[![React](https://img.shields.io/badge/React-18.2-cyan?style=flat-square&logo=react&logoColor=white)](#)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](#)
+[![Qdrant](https://img.shields.io/badge/VectorDB-Qdrant-D33833?style=flat-square&logo=qdrant&logoColor=white)](#)
 
 ---
 
